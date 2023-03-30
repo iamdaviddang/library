@@ -1,2 +1,2 @@
-# library
+# Library
 My Library System(login, register, application)
