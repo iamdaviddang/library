@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.daviddang.library.registerController">
+   <Label layoutX="178.0" layoutY="23.0" text="REGISTER">
+      <font>
+         <Font name="System Bold" size="50.0" />
+      </font>
+   </Label>
+   <Label layoutX="101.0" layoutY="113.0" text="Username">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <Label layoutX="322.0" layoutY="197.0" text="Surename">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <Label layoutX="101.0" layoutY="274.0" text="Email">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <Label layoutX="101.0" layoutY="197.0" text="Password">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <Label layoutX="322.0" layoutY="274.0" text="Address">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font></Label>
+   <TextField fx:id="txtUsername" layoutX="100.0" layoutY="143.0" prefHeight="30.0" prefWidth="150.0" />
+   <TextField fx:id="txtName" layoutX="323.0" layoutY="143.0" prefHeight="30.0" prefWidth="150.0" />
+   <TextField fx:id="txtSurename" layoutX="321.0" layoutY="227.0" prefHeight="30.0" prefWidth="150.0" />
+   <TextField fx:id="txtEmail" layoutX="100.0" layoutY="304.0" prefHeight="30.0" prefWidth="150.0" />
+   <TextField fx:id="txtAddress" layoutX="321.0" layoutY="304.0" prefHeight="30.0" prefWidth="150.0" />
+   <TextField fx:id="txtPassword" layoutX="100.0" layoutY="227.0" prefHeight="30.0" prefWidth="150.0" />
+   <Button layoutX="198.0" layoutY="371.0" mnemonicParsing="false" onAction="#RegisterButtonPressed" prefHeight="53.0" prefWidth="187.0" style="-fx-cursor: hand; -fx-background-color: green;" text="Register">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </Button>
+   <Button layoutX="249.0" layoutY="435.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="17.0" prefWidth="85.0" style="-fx-background-color: yellow;" text="Back to login" />
+   <Label layoutX="324.0" layoutY="113.0" text="Name">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+</Pane>
